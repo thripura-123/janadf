@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "SalesLT",
-			"table": "*"
+			"table": "Customer"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
