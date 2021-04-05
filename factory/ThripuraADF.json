@@ -1,0 +1,9 @@
+{
+	"name": "ThripuraADF",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "abf0f012-67e7-486a-9f26-b8605364e459",
+		"tenantId": "02aa9fc1-18bc-4798-a020-e01c854dd434"
+	}
+}
