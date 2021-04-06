@@ -11,6 +11,12 @@
 		"AzureSqlDatabaseLS_connectionString": {
 			"value": ""
 		},
+		"AzureSqlSampleDBLS_connectionString": {
+			"value": ""
+		},
+		"AzureSqlTrialDBLS_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},

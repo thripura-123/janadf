@@ -15,6 +15,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseLS'"
 		},
+		"AzureSqlSampleDBLS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlSampleDBLS'"
+		},
+		"AzureSqlTrialDBLS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlTrialDBLS'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +55,12 @@
 					},
 					"AzureSqlDatabaseLS_connectionString": {
 						"value": "[parameters('AzureSqlDatabaseLS_connectionString')]"
+					},
+					"AzureSqlSampleDBLS_connectionString": {
+						"value": "[parameters('AzureSqlSampleDBLS_connectionString')]"
+					},
+					"AzureSqlTrialDBLS_connectionString": {
+						"value": "[parameters('AzureSqlTrialDBLS_connectionString')]"
 					}
 				}
 			},
