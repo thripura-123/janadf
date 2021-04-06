@@ -15,9 +15,17 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageeLS'"
 		},
+		"AzureBlobStorageeeLS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageeeLS'"
+		},
 		"AzureSqlDatabaseLS_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseLS'"
+		},
+		"AzureSqlDatabaseeLS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseeLS'"
 		},
 		"AzureSqlSampleDBLS_connectionString": {
 			"type": "secureString",
@@ -72,8 +80,14 @@
 					"AzureBlobStorageeLS_connectionString": {
 						"value": "[parameters('AzureBlobStorageeLS_connectionString')]"
 					},
+					"AzureBlobStorageeeLS_connectionString": {
+						"value": "[parameters('AzureBlobStorageeeLS_connectionString')]"
+					},
 					"AzureSqlDatabaseLS_connectionString": {
 						"value": "[parameters('AzureSqlDatabaseLS_connectionString')]"
+					},
+					"AzureSqlDatabaseeLS_connectionString": {
+						"value": "[parameters('AzureSqlDatabaseeLS_connectionString')]"
 					},
 					"AzureSqlSampleDBLS_connectionString": {
 						"value": "[parameters('AzureSqlSampleDBLS_connectionString')]"

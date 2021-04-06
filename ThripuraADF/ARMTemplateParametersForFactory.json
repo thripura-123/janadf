@@ -11,7 +11,13 @@
 		"AzureBlobStorageeLS_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorageeeLS_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabaseLS_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabaseeLS_connectionString": {
 			"value": ""
 		},
 		"AzureSqlSampleDBLS_connectionString": {
