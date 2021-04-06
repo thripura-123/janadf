@@ -8,6 +8,9 @@
 		"AzureBlobStorageLS_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorageeLS_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabaseLS_connectionString": {
 			"value": ""
 		},
@@ -16,6 +19,15 @@
 		},
 		"AzureSqlTrialDBLS_connectionString": {
 			"value": ""
+		},
+		"SqlServerLS_connectionString": {
+			"value": ""
+		},
+		"SqlServerLS_password": {
+			"value": ""
+		},
+		"SqlServerLS_properties_typeProperties_userName": {
+			"value": "LAPTOP-43BVBGRC\\vyama"
 		}
 	}
 }

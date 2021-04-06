@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageLS'"
 		},
+		"AzureBlobStorageeLS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageeLS'"
+		},
 		"AzureSqlDatabaseLS_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseLS'"
@@ -22,6 +26,18 @@
 		"AzureSqlTrialDBLS_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlTrialDBLS'"
+		},
+		"SqlServerLS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'SqlServerLS'"
+		},
+		"SqlServerLS_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServerLS'"
+		},
+		"SqlServerLS_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "LAPTOP-43BVBGRC\\vyama"
 		},
 		"containerUri": {
 			"type": "string",
@@ -53,6 +69,9 @@
 					"AzureBlobStorageLS_connectionString": {
 						"value": "[parameters('AzureBlobStorageLS_connectionString')]"
 					},
+					"AzureBlobStorageeLS_connectionString": {
+						"value": "[parameters('AzureBlobStorageeLS_connectionString')]"
+					},
 					"AzureSqlDatabaseLS_connectionString": {
 						"value": "[parameters('AzureSqlDatabaseLS_connectionString')]"
 					},
@@ -61,6 +80,15 @@
 					},
 					"AzureSqlTrialDBLS_connectionString": {
 						"value": "[parameters('AzureSqlTrialDBLS_connectionString')]"
+					},
+					"SqlServerLS_connectionString": {
+						"value": "[parameters('SqlServerLS_connectionString')]"
+					},
+					"SqlServerLS_password": {
+						"value": "[parameters('SqlServerLS_password')]"
+					},
+					"SqlServerLS_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServerLS_properties_typeProperties_userName')]"
 					}
 				}
 			},
