@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerAgg",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=LAPTOP-43BVBGRC\\THRIPURA;initial catalog=AdventureWorks2012",
+			"userName": "LAPTOP-43BVBGRC\\vyama",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyYzg1MzBhMC04YjAxLTRmNGQtYjkwYy0zYjU2NjRlNGUzZTEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "onpremIIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
