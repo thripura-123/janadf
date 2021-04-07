@@ -11,6 +11,9 @@
 		"AzureBlobStorage2_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
 		"AzureBlobStorageLS_connectionString": {
 			"value": ""
 		},
@@ -36,6 +39,18 @@
 			"value": ""
 		},
 		"AzureSqlDatabase5_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase6_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase7_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase8_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase9_connectionString": {
 			"value": ""
 		},
 		"AzureSqlDatabaseAgg_connectionString": {
