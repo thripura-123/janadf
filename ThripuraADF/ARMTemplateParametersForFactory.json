@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "ThripuraADF"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
 		"AzureBlobStorageLS_connectionString": {
 			"value": ""
 		},
@@ -14,10 +20,34 @@
 		"AzureBlobStorageeeLS_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase3_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase4_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabaseAgg_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabaseAggg_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabaseLS_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabaseass6_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabaseeLS_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabasenew_connectionString": {
 			"value": ""
 		},
 		"AzureSqlSampleDBLS_connectionString": {
@@ -26,11 +56,47 @@
 		"AzureSqlTrialDBLS_connectionString": {
 			"value": ""
 		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_connectionString": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServerAgg_connectionString": {
+			"value": ""
+		},
+		"SqlServerAgg_password": {
+			"value": ""
+		},
+		"SqlServerAggLS_connectionString": {
+			"value": ""
+		},
+		"SqlServerAggLS_password": {
+			"value": ""
+		},
 		"SqlServerLS_connectionString": {
 			"value": ""
 		},
 		"SqlServerLS_password": {
 			"value": ""
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "LAPTOP-43BVBGRC\\vyama"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "LAPTOP-43BVBGRC\\vyama"
+		},
+		"SqlServerAgg_properties_typeProperties_userName": {
+			"value": "LAPTOP-43BVBGRC\\vyama"
+		},
+		"SqlServerAggLS_properties_typeProperties_userName": {
+			"value": "LAPTOP-43BVBGRC\\vyama"
 		},
 		"SqlServerLS_properties_typeProperties_userName": {
 			"value": "LAPTOP-43BVBGRC\\vyama"

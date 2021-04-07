@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "ThripuraADF"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
+		"AzureBlobStorage2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage2'"
+		},
 		"AzureBlobStorageLS_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageLS'"
@@ -19,13 +27,45 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorageeeLS'"
 		},
+		"AzureSqlDatabase1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
+		},
+		"AzureSqlDatabase2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase2'"
+		},
+		"AzureSqlDatabase3_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase3'"
+		},
+		"AzureSqlDatabase4_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase4'"
+		},
+		"AzureSqlDatabaseAgg_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseAgg'"
+		},
+		"AzureSqlDatabaseAggg_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseAggg'"
+		},
 		"AzureSqlDatabaseLS_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseLS'"
 		},
+		"AzureSqlDatabaseass6_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseass6'"
+		},
 		"AzureSqlDatabaseeLS_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseeLS'"
+		},
+		"AzureSqlDatabasenew_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabasenew'"
 		},
 		"AzureSqlSampleDBLS_connectionString": {
 			"type": "secureString",
@@ -35,6 +75,38 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureSqlTrialDBLS'"
 		},
+		"SqlServer1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'SqlServer1'"
+		},
+		"SqlServer1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServer1'"
+		},
+		"SqlServer2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'SqlServer2'"
+		},
+		"SqlServer2_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServer2'"
+		},
+		"SqlServerAgg_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'SqlServerAgg'"
+		},
+		"SqlServerAgg_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServerAgg'"
+		},
+		"SqlServerAggLS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'SqlServerAggLS'"
+		},
+		"SqlServerAggLS_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServerAggLS'"
+		},
 		"SqlServerLS_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'SqlServerLS'"
@@ -42,6 +114,22 @@
 		"SqlServerLS_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'SqlServerLS'"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "LAPTOP-43BVBGRC\\vyama"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "LAPTOP-43BVBGRC\\vyama"
+		},
+		"SqlServerAgg_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "LAPTOP-43BVBGRC\\vyama"
+		},
+		"SqlServerAggLS_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "LAPTOP-43BVBGRC\\vyama"
 		},
 		"SqlServerLS_properties_typeProperties_userName": {
 			"type": "string",
@@ -74,6 +162,12 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
+					},
+					"AzureBlobStorage2_connectionString": {
+						"value": "[parameters('AzureBlobStorage2_connectionString')]"
+					},
 					"AzureBlobStorageLS_connectionString": {
 						"value": "[parameters('AzureBlobStorageLS_connectionString')]"
 					},
@@ -83,17 +177,83 @@
 					"AzureBlobStorageeeLS_connectionString": {
 						"value": "[parameters('AzureBlobStorageeeLS_connectionString')]"
 					},
+					"AzureSqlDatabase1_connectionString": {
+						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
+					},
+					"AzureSqlDatabase2_connectionString": {
+						"value": "[parameters('AzureSqlDatabase2_connectionString')]"
+					},
+					"AzureSqlDatabase3_connectionString": {
+						"value": "[parameters('AzureSqlDatabase3_connectionString')]"
+					},
+					"AzureSqlDatabaseAggg_connectionString": {
+						"value": "[parameters('AzureSqlDatabaseAggg_connectionString')]"
+					},
 					"AzureSqlDatabaseLS_connectionString": {
 						"value": "[parameters('AzureSqlDatabaseLS_connectionString')]"
 					},
+					"AzureSqlDatabaseass6_connectionString": {
+						"value": "[parameters('AzureSqlDatabaseass6_connectionString')]"
+					},
 					"AzureSqlDatabaseeLS_connectionString": {
 						"value": "[parameters('AzureSqlDatabaseeLS_connectionString')]"
+					},
+					"AzureSqlDatabasenew_connectionString": {
+						"value": "[parameters('AzureSqlDatabasenew_connectionString')]"
 					},
 					"AzureSqlSampleDBLS_connectionString": {
 						"value": "[parameters('AzureSqlSampleDBLS_connectionString')]"
 					},
 					"AzureSqlTrialDBLS_connectionString": {
 						"value": "[parameters('AzureSqlTrialDBLS_connectionString')]"
+					}
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "ThripuraADF_ArmTemplate_1",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2018-02-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_1.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					},
+					"AzureSqlDatabase4_connectionString": {
+						"value": "[parameters('AzureSqlDatabase4_connectionString')]"
+					},
+					"AzureSqlDatabaseAgg_connectionString": {
+						"value": "[parameters('AzureSqlDatabaseAgg_connectionString')]"
+					},
+					"SqlServer1_connectionString": {
+						"value": "[parameters('SqlServer1_connectionString')]"
+					},
+					"SqlServer1_password": {
+						"value": "[parameters('SqlServer1_password')]"
+					},
+					"SqlServer2_connectionString": {
+						"value": "[parameters('SqlServer2_connectionString')]"
+					},
+					"SqlServer2_password": {
+						"value": "[parameters('SqlServer2_password')]"
+					},
+					"SqlServerAgg_connectionString": {
+						"value": "[parameters('SqlServerAgg_connectionString')]"
+					},
+					"SqlServerAgg_password": {
+						"value": "[parameters('SqlServerAgg_password')]"
+					},
+					"SqlServerAggLS_connectionString": {
+						"value": "[parameters('SqlServerAggLS_connectionString')]"
+					},
+					"SqlServerAggLS_password": {
+						"value": "[parameters('SqlServerAggLS_password')]"
 					},
 					"SqlServerLS_connectionString": {
 						"value": "[parameters('SqlServerLS_connectionString')]"
@@ -101,12 +261,26 @@
 					"SqlServerLS_password": {
 						"value": "[parameters('SqlServerLS_password')]"
 					},
+					"SqlServer1_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServer1_properties_typeProperties_userName')]"
+					},
+					"SqlServer2_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServer2_properties_typeProperties_userName')]"
+					},
+					"SqlServerAgg_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServerAgg_properties_typeProperties_userName')]"
+					},
+					"SqlServerAggLS_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServerAggLS_properties_typeProperties_userName')]"
+					},
 					"SqlServerLS_properties_typeProperties_userName": {
 						"value": "[parameters('SqlServerLS_properties_typeProperties_userName')]"
 					}
 				}
 			},
-			"dependsOn": []
+			"dependsOn": [
+				"[resourceId('Microsoft.Resources/deployments', 'ThripuraADF_ArmTemplate_0')]"
+			]
 		}
 	]
 }
