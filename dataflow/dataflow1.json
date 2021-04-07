@@ -1,0 +1,28 @@
+{
+	"name": "dataflow1",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "AzureSqlTable2",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "Json5",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				}
+			],
+			"transformations": [],
+			"script": "source(allowSchemaDrift: true,\n\tvalidateSchema: false,\n\tisolationLevel: 'READ_UNCOMMITTED',\n\tquery: 'select c.FirstName+\\' \\' +c.LastName +\\' bought \\' +p.Name +\\' from \\' + c.SalesPerson as dop from (((\\n[SalesLT].[Customer] as c inner join [SalesLT].[SalesOrderHeader] as h  on c.CustomerID=h.CustomerID)\\ninner join SalesLT.SalesOrderDetail as d on h.SalesOrderID=d.SalesOrderID) inner join SalesLT.Product as p on p.ProductID=d.ProductID)',\n\tformat: 'query') ~> source1\nsource1 sink(allowSchemaDrift: true,\n\tvalidateSchema: false,\n\tskipDuplicateMapInputs: true,\n\tskipDuplicateMapOutputs: true) ~> sink1"
+		}
+	}
+}
