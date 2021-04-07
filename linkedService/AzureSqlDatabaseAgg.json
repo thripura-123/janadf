@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlDatabaseAgg",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=thripura.database.windows.net;initial catalog=TrialDB;user id=sqladmin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1NDYyN2EyYS1kZTlhLTQ3MTEtOTJjNi00Yzg2NGFkMTgzZDgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "onpremIIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
